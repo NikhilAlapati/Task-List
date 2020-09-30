@@ -1,0 +1,65 @@
+/*
+  Name: Nikhil Alapati
+  Date: 5/18/2020
+  Section: CSE 154 A/AC
+  This is a my own style/design for the index.html Task List app
+*/
+
+body {
+  background-color: rgb(0, 174, 255);
+  font-size: 25px;
+}
+
+body,
+input,
+textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-bar,
+.task-box,
+#submit-btn {
+  display: flex;
+}
+
+.label {
+  padding: 0;
+  margin: 0;
+}
+
+.top-bar {
+  justify-content: center;
+  text-align: center;
+}
+
+#task-desc {
+  resize: none;
+}
+
+#submit-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  width: 100%;
+}
+
+.task-box {
+  justify-content: center;
+  text-align: center;
+}
+
+.task {
+  width: 100vw;
+  background-color: rgb(2, 219, 2);
+}
+
+.task p {
+  padding: 1%;
+  word-wrap: break-word;
+}
+
+#error {
+  color: red;
+}

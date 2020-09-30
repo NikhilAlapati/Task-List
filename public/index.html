@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+  Name: Nikhil Alapati
+  Date: 5/18/2020
+  Section: CSE 154 A/AC
+  This the the main page for the task list app it is the structure of the
+  webpage
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section class="top-bar">
+      <form id="form">
+        <p id="error"></p>
+        <label for="task-name">Task Name:</label>
+        <input type="text" name="name" id="task-name" class="input" maxlength="50" required>
+        <label for="task-desc">Task Description:</label>
+        <textarea name="description" id="task-desc" class="input" cols="30" rows="5">
+        </textarea>
+        <input type="submit" value="Add Task" id="submit-btn">
+      </form>
+    </section>
+
+    <div class="task-box">
+      <section class="cards"></section>
+    </div>
+
+  </body>
+</html>
