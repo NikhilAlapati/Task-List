@@ -1,7 +1,6 @@
 /**
  * Name: Nikhil Alapati
  * Date: 5/18/2020
- * Section: CSE 154 A/AC
  *
  * This the the backend Node JS for the task list app this keeps track of all
  * the posts sent to it by storing it in a json file each different task name
